@@ -9,7 +9,7 @@ using the bit planes method to compress images. The tool used in this paper is M
 # Implementation and algorithm 
 Explanation of each case with mathematical calculation step by step with example of each algorithm.
 
-#### Example_1a
+## Example_1a
 <b>Reduce the number of intensity levels in an image from 256 to 2, in integer powers of 2. Apply your program to Figure “Im_1”
 
 matrix_1
@@ -27,7 +27,7 @@ Output_matrix
 
 ![Figure1_A](https://github.com/yousefturin/simple-image-processing/assets/94796673/f13d16a6-22fd-48a9-aa73-72541e11f531)
 
-#### Example_1b
+## Example_1b
 <b>Use at least four thresholding values in the interval [0, L-1], and produce the corresponding binary images
 matrix_1 
 | 0 | 5 | 0 | 1 |
@@ -47,7 +47,7 @@ Output_matrix
 
 ![Figure1_B](https://github.com/yousefturin/simple-image-processing/assets/94796673/f082ba1a-bb32-4f5d-a6e2-2fcb04f11bcf)
 
-#### Example_1c
+## Example_1c
 <b>Reversing the intensity levels of Figure “Im_2” to produce the equivalent of a  photographic negative.
 matrix_1 
 
@@ -79,7 +79,7 @@ Output_matrix
 
 ![Figure1_C](https://github.com/yousefturin/simple-image-processing/assets/94796673/9bd0032e-dcf6-4dae-bb3f-98ce9bfa8483)
 
-#### Example_2
+## Example_2
 Enhance Figure “Im_3” using the log transformation (s=clog(1+r)). Obtain the best visual enhancement according to your judgment.
 matrix_1 
 | 216 | 216 | 248 | 255 |
@@ -101,7 +101,7 @@ Output_matrix
 
 ![Figure2](https://github.com/yousefturin/simple-image-processing/assets/94796673/d799fe0b-00ab-4f3c-93d3-c41868f159cd)
 
-#### Example_3
+## Example_3
 Enhance Figure “Im_4” using the power-law transformation (s=cr^γ). Obtain the best visual enhancement according to your judgment.
 matrix_1
 | 216 | 216 | 248 | 255 |
@@ -123,11 +123,11 @@ Output_matrix
 
 ![Figure3](https://github.com/yousefturin/simple-image-processing/assets/94796673/71caea70-1d03-4fe9-a461-021d511136f2)
 
-#### Example_4
+## Example_4
 
 ![Figure4](https://github.com/yousefturin/simple-image-processing/assets/94796673/c64ecda6-9de7-49c8-aa8d-22bcf5f15352)
 
-#### Example_5
+## Example_5
 The contribution to the total image appearance by specific bits can be highlighted. Decompose Figure “Im_2” into its bit planes. Then reconstruct the same image by using its upper three planes.
 matrix_1 
 | 216 | 216 | 248 | 255 |
