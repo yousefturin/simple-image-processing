@@ -129,14 +129,15 @@ Output_matrix
 
 ## Example_5
 The contribution to the total image appearance by specific bits can be highlighted. Decompose Figure “Im_2” into its bit planes. Then reconstruct the same image by using its upper three planes.
+
 matrix_1 
 | 216 | 216 | 248 | 255 |
 |---|---|---|---|
 | 250 | 188 | 167 | 143 | 
 | 83 | 111 | 124 | 205 |
 
+_____________________________________________________________________
 Bin_matrix 
-
 | 11011000 | 11011000 | 11111000 | 11111111 |
 |---|---|---|---|
 | 11111010 | 10111100 | 10100111 | 10001111 | 
